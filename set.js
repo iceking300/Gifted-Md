@@ -12,7 +12,7 @@ module.exports = { session: process.env.SESSION_ID || 'Gifted;;;',
     OWNER_NAME: process.env.OWNER_NAME || "Gifted Tech",
     NUMERO_OWNER : process.env.OWNER_NUMBER || "254762016957,254728782591", 
              
-    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
+    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "no",
 AUTOREAD_MESSAGES: process.env.AUTO_READ_MESSAGES || "no",
 CHATBOT: process.env.CHAT_BOT || "no",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
